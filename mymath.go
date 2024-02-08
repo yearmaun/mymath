@@ -33,3 +33,7 @@ func Pow(x, y float64) float64 {
 func Min(x, y float64) float64 {
 	return math.Min(x, y)
 }
+
+func Pow10(n int) float64 {
+	return math.Pow10(n)
+}
